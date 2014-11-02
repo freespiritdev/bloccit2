@@ -10,6 +10,10 @@ class User < ActiveRecord::Base
   mount_uploader :avatar, AvatarUploader
 
 
+  def voted(post)
+    votes.where(post_id: post.id).first
+  end
+  
   def admin?
     role == 'admin'
   end
