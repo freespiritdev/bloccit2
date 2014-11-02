@@ -45,3 +45,13 @@ gem 'pundit'
 
 gem 'redcarpet'
 
+gem 'carrierwave'
+
+gem 'mini_magick'
+
+gem 'rmagick'
+
+gem 'fog'
+
+gem 'will_paginate', '~> 3.0.5'
+
